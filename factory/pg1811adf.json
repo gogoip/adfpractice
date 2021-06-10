@@ -1,0 +1,9 @@
+{
+	"name": "pg1811adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e1241884-0f2b-44c2-ad90-27f3a808168e",
+		"tenantId": "4010b9ed-144a-462c-a3ab-a9bde7b38496"
+	}
+}
