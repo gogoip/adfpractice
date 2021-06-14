@@ -10,7 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "emp_2.txt",
+				"fileName": {
+					"value": "@'emp'+utcnow()+'.txt'",
+					"type": "Expression"
+				},
 				"container": "folder01"
 			},
 			"columnDelimiter": ",",
