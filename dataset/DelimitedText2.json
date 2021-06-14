@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "@'emp'+utcnow()+'.txt'",
+					"value": "@{concat('emp',utcnow(),'.txt')}",
 					"type": "Expression"
 				},
 				"container": "folder01"
