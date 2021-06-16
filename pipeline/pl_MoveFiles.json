@@ -30,6 +30,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -140,7 +141,7 @@
 						"type": "Expression"
 					},
 					"condition": {
-						"value": "@startsWith(item().name,'emp')",
+						"value": "@startsWith(item().name,'dept')",
 						"type": "Expression"
 					}
 				}
